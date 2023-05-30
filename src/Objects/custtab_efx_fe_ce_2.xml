@@ -1,0 +1,5 @@
+<subtab scriptid="custtab_efx_fe_ce_2">
+  <parent>[scriptid=custtab_mx_cfdi_data]</parent>
+  <tabtype>TRANSACTION</tabtype>
+  <title>Comercio Exterior</title>
+</subtab>

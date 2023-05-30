@@ -1,0 +1,330 @@
+<customrecordtype scriptid="customrecord_efx_ped_aduanas">
+  <accesstype>CUSTRECORDENTRYPERM</accesstype>
+  <allowattachments>T</allowattachments>
+  <allowinlinedeleting>F</allowinlinedeleting>
+  <allowinlinedetaching>T</allowinlinedetaching>
+  <allowinlineediting>F</allowinlineediting>
+  <allowmobileaccess>F</allowmobileaccess>
+  <allownumberingoverride>F</allownumberingoverride>
+  <allowquickadd>T</allowquickadd>
+  <allowquicksearch>F</allowquicksearch>
+  <allowuiaccess>T</allowuiaccess>
+  <description>Listado oficial de aduanas proveído por el SAT</description>
+  <enabledle>T</enabledle>
+  <enablekeywords>T</enablekeywords>
+  <enablemailmerge>F</enablemailmerge>
+  <enablenametranslation>F</enablenametranslation>
+  <enablenumbering>F</enablenumbering>
+  <enableoptimisticlocking>T</enableoptimisticlocking>
+  <enablesystemnotes>T</enablesystemnotes>
+  <hierarchical>F</hierarchical>
+  <icon></icon>
+  <iconbuiltin>T</iconbuiltin>
+  <iconindex></iconindex>
+  <includeinsearchmenu>T</includeinsearchmenu>
+  <includename>T</includename>
+  <isinactive>F</isinactive>
+  <isordered>F</isordered>
+  <numberinginit></numberinginit>
+  <numberingmindigits></numberingmindigits>
+  <numberingprefix></numberingprefix>
+  <numberingsuffix></numberingsuffix>
+  <recordname>EFX - Aduanas</recordname>
+  <showcreationdate>F</showcreationdate>
+  <showcreationdateonlist>F</showcreationdateonlist>
+  <showid>F</showid>
+  <showlastmodified>F</showlastmodified>
+  <showlastmodifiedonlist>F</showlastmodifiedonlist>
+  <shownotes>T</shownotes>
+  <showowner>F</showowner>
+  <showownerallowchange>F</showownerallowchange>
+  <showowneronlist>F</showowneronlist>
+  <customrecordcustomfields>
+    <customrecordcustomfield scriptid="custrecord_efx_ped_ad_id_sat">
+      <accesslevel>2</accesslevel>
+      <allowquickadd>F</allowquickadd>
+      <applyformatting>F</applyformatting>
+      <checkspelling>F</checkspelling>
+      <defaultchecked>F</defaultchecked>
+      <defaultselection></defaultselection>
+      <defaultvalue></defaultvalue>
+      <description>ID de la aduana asignado por el SAT</description>
+      <displayheight></displayheight>
+      <displaytype>NORMAL</displaytype>
+      <displaywidth></displaywidth>
+      <dynamicdefault></dynamicdefault>
+      <encryptatrest>F</encryptatrest>
+      <fieldtype>TEXT</fieldtype>
+      <globalsearch>F</globalsearch>
+      <help></help>
+      <isformula>F</isformula>
+      <ismandatory>F</ismandatory>
+      <isparent>F</isparent>
+      <label>ID SAT</label>
+      <linktext></linktext>
+      <maxlength></maxlength>
+      <maxvalue></maxvalue>
+      <minvalue></minvalue>
+      <onparentdelete></onparentdelete>
+      <parentsubtab></parentsubtab>
+      <rolerestrict>F</rolerestrict>
+      <searchcomparefield></searchcomparefield>
+      <searchdefault></searchdefault>
+      <searchlevel>2</searchlevel>
+      <selectrecordtype></selectrecordtype>
+      <showinlist>F</showinlist>
+      <sourcefilterby></sourcefilterby>
+      <sourcefrom></sourcefrom>
+      <sourcelist></sourcelist>
+      <storevalue>T</storevalue>
+      <subtab></subtab>
+    </customrecordcustomfield>
+  </customrecordcustomfields>
+  <instances>
+    <instance scriptid="val_245097_t2220309_924">
+      <custrecord_efx_ped_ad_id_sat>01</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Acapulco de Juárez, Guerrero</name>
+    </instance>
+    <instance scriptid="val_245098_t2220309_835">
+      <custrecord_efx_ped_ad_id_sat>02</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Agua Prieta, Sonora</name>
+    </instance>
+    <instance scriptid="val_245099_t2220309_638">
+      <custrecord_efx_ped_ad_id_sat>05</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Subteniente López, Quintana Roo</name>
+    </instance>
+    <instance scriptid="val_245100_t2220309_224">
+      <custrecord_efx_ped_ad_id_sat>06</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Ciudad del Carmen, Campeche</name>
+    </instance>
+    <instance scriptid="val_245101_t2220309_199">
+      <custrecord_efx_ped_ad_id_sat>07</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Ciudad Juárez, Chihuahua</name>
+    </instance>
+    <instance scriptid="val_245102_t2220309_206">
+      <custrecord_efx_ped_ad_id_sat>08</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Coatzacoalcos, Veracruz</name>
+    </instance>
+    <instance scriptid="val_245103_t2220309_843">
+      <custrecord_efx_ped_ad_id_sat>11</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Ensenada, Baja California</name>
+    </instance>
+    <instance scriptid="val_245104_t2220309_864">
+      <custrecord_efx_ped_ad_id_sat>12</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Guaymas, Sonora</name>
+    </instance>
+    <instance scriptid="val_245105_t2220309_126">
+      <custrecord_efx_ped_ad_id_sat>14</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>La Paz, Baja California Sur</name>
+    </instance>
+    <instance scriptid="val_245106_t2220309_925">
+      <custrecord_efx_ped_ad_id_sat>16</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Manzanillo, Colima</name>
+    </instance>
+    <instance scriptid="val_245107_t2220309_364">
+      <custrecord_efx_ped_ad_id_sat>17</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Matamoros, Tamaulipas</name>
+    </instance>
+    <instance scriptid="val_245108_t2220309_633">
+      <custrecord_efx_ped_ad_id_sat>18</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Mazatlán, Sinaloa</name>
+    </instance>
+    <instance scriptid="val_245109_t2220309_909">
+      <custrecord_efx_ped_ad_id_sat>19</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Mexicali, Baja California</name>
+    </instance>
+    <instance scriptid="val_245110_t2220309_135">
+      <custrecord_efx_ped_ad_id_sat>20</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Ciudad de México</name>
+    </instance>
+    <instance scriptid="val_245112_t2220309_614">
+      <custrecord_efx_ped_ad_id_sat>22</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Naco, Sonora</name>
+    </instance>
+    <instance scriptid="val_245114_t2220309_587">
+      <custrecord_efx_ped_ad_id_sat>23</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Nogales, Sonora</name>
+    </instance>
+    <instance scriptid="val_245115_t2220309_327">
+      <custrecord_efx_ped_ad_id_sat>24</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Nuevo Laredo, Tamaulipas</name>
+    </instance>
+    <instance scriptid="val_245116_t2220309_913">
+      <custrecord_efx_ped_ad_id_sat>25</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Ojinaga, Ojinaga, Chihuahua.</name>
+    </instance>
+    <instance scriptid="val_245117_t2220309_720">
+      <custrecord_efx_ped_ad_id_sat>26</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Puerto Palomas, Chihuahua</name>
+    </instance>
+    <instance scriptid="val_245118_t2220309_504">
+      <custrecord_efx_ped_ad_id_sat>27</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Piedras Negras, Coahuila</name>
+    </instance>
+    <instance scriptid="val_245119_t2220309_418">
+      <custrecord_efx_ped_ad_id_sat>28</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Progreso, Yucatán</name>
+    </instance>
+    <instance scriptid="val_245120_t2220309_150">
+      <custrecord_efx_ped_ad_id_sat>30</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Ciudad Reynosa, Tamaulipas</name>
+    </instance>
+    <instance scriptid="val_245121_t2220309_775">
+      <custrecord_efx_ped_ad_id_sat>31</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Salina Cruz, Oaxaca</name>
+    </instance>
+    <instance scriptid="val_245122_t2220309_180">
+      <custrecord_efx_ped_ad_id_sat>33</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>San Luis Rio Colorado, Sonora</name>
+    </instance>
+    <instance scriptid="val_245123_t2220309_244">
+      <custrecord_efx_ped_ad_id_sat>34</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Ciudad Miguel Alemán, Tamaulipas</name>
+    </instance>
+    <instance scriptid="val_245124_t2220309_718">
+      <custrecord_efx_ped_ad_id_sat>37</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Ciudad Hidalgo, Chiapas</name>
+    </instance>
+    <instance scriptid="val_245125_t2220309_337">
+      <custrecord_efx_ped_ad_id_sat>38</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Tampico, Tamaulipas</name>
+    </instance>
+    <instance scriptid="val_245126_t2220309_426">
+      <custrecord_efx_ped_ad_id_sat>39</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Tecate, Baja California</name>
+    </instance>
+    <instance scriptid="val_245127_t2220309_269">
+      <custrecord_efx_ped_ad_id_sat>40</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Tijuana, Baja California</name>
+    </instance>
+    <instance scriptid="val_245128_t2220309_359">
+      <custrecord_efx_ped_ad_id_sat>42</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Tuxpan de Rodríguez Cano, Veracruz</name>
+    </instance>
+    <instance scriptid="val_245129_t2220309_429">
+      <custrecord_efx_ped_ad_id_sat>43</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Veracruz, Veracruz</name>
+    </instance>
+    <instance scriptid="val_245130_t2220309_954">
+      <custrecord_efx_ped_ad_id_sat>44</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Ciudad Acuña, Coahuila</name>
+    </instance>
+    <instance scriptid="val_245131_t2220309_400">
+      <custrecord_efx_ped_ad_id_sat>46</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Torreón, Coahuila</name>
+    </instance>
+    <instance scriptid="val_245132_t2220309_101">
+      <custrecord_efx_ped_ad_id_sat>47</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Aeropuerto Internacional de la Ciudad de México</name>
+    </instance>
+    <instance scriptid="val_245133_t2220309_305">
+      <custrecord_efx_ped_ad_id_sat>48</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Tlajomulco de Zúñiga, Jalisco</name>
+    </instance>
+    <instance scriptid="val_245134_t2220309_661">
+      <custrecord_efx_ped_ad_id_sat>50</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Sonoyta, Sonora</name>
+    </instance>
+    <instance scriptid="val_245135_t2220309_605">
+      <custrecord_efx_ped_ad_id_sat>51</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Lázaro Cárdenas, Michoacán</name>
+    </instance>
+    <instance scriptid="val_245136_t2220309_429">
+      <custrecord_efx_ped_ad_id_sat>52</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>General Mariano Escobedo, Nuevo León</name>
+    </instance>
+    <instance scriptid="val_245137_t2220309_269">
+      <custrecord_efx_ped_ad_id_sat>53</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Cancún, Quintana Roo.</name>
+    </instance>
+    <instance scriptid="val_245138_t2220309_148">
+      <custrecord_efx_ped_ad_id_sat>64</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>El Marqués y Colón, Querétaro.</name>
+    </instance>
+    <instance scriptid="val_245139_t2220309_246">
+      <custrecord_efx_ped_ad_id_sat>65</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Toluca, Estado de México</name>
+    </instance>
+    <instance scriptid="val_245140_t2220309_841">
+      <custrecord_efx_ped_ad_id_sat>67</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Chihuahua, Chihuahua</name>
+    </instance>
+    <instance scriptid="val_245141_t2220309_212">
+      <custrecord_efx_ped_ad_id_sat>73</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Aguascalientes, Aguascalientes</name>
+    </instance>
+    <instance scriptid="val_245142_t2220309_896">
+      <custrecord_efx_ped_ad_id_sat>75</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Heroica Puebla de Zaragoza, Puebla</name>
+    </instance>
+    <instance scriptid="val_245143_t2220309_977">
+      <custrecord_efx_ped_ad_id_sat>80</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Colombia, Nuevo León</name>
+    </instance>
+    <instance scriptid="val_245144_t2220309_184">
+      <custrecord_efx_ped_ad_id_sat>81</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Altamira, Tamaulipas</name>
+    </instance>
+    <instance scriptid="val_245145_t2220309_147">
+      <custrecord_efx_ped_ad_id_sat>82</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Ciudad Camargo, Tamaulipas</name>
+    </instance>
+    <instance scriptid="val_245146_t2220309_909">
+      <custrecord_efx_ped_ad_id_sat>83</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Dos Bocas, Paraíso, Tabasco</name>
+    </instance>
+    <instance scriptid="val_245147_t2220309_253">
+      <custrecord_efx_ped_ad_id_sat>84</custrecord_efx_ped_ad_id_sat>
+      <isinactive>F</isinactive>
+      <name>Silao, Guanajuato</name>
+    </instance>
+  </instances>
+</customrecordtype>
