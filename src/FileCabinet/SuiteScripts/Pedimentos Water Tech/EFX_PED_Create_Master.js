@@ -927,6 +927,10 @@ define(['N/record','N/search', 'N/file'],
                         // }
     
                         for (var x = 0; x < array_pedimentos.length; x++) {
+                            if (array_pedimentos[x].cantidad < 0) {
+                                log.debug({title:'Decremento de pedimento', details:'Se realiza en el consume'});
+                                continue;
+                            }
                             var ped_master_record = record.create({
                                 type: 'customrecord_efx_ped_master_record',
                             });

@@ -47,6 +47,7 @@ define(['N/record', 'N/search'],
             try {
                 if (scriptContext.type == scriptContext.UserEventType.EDIT || scriptContext.type == scriptContext.UserEventType.CREATE) {
                     var record_now = scriptContext.newRecord;
+                    var record_old = scriptContext.oldRecord;
                     var recType = record_now.type;
 
                     if (recType == record.Type.INVENTORY_ADJUSTMENT || recType == record.Type.INVOICE || recType == record.Type.VENDOR_CREDIT || recType == record.Type.CASH_SALE) {
@@ -293,13 +294,41 @@ define(['N/record', 'N/search'],
                                         line: i
                                     }) || 0;
 
+                                    // var old_pedimento = record_obj.getSublistValue({
+                                    //     sublistId: sublista,
+                                    //     fieldId: campo_rate,
+                                    //     line: i
+                                    // }) || '';
+
+                                    if (numero_p_linea != '' && scriptContext.type == scriptContext.UserEventType.EDIT) {
+                                        log.debug({title:'Seguimiento:', details:numero_p_linea});
+                                        var oldQuantity = record_old.getSublistValue({
+                                            sublistId: sublista,
+                                            fieldId: campo_cantidad,
+                                            line: i
+                                        }) || '';
+                                        var diferenceQuantity = cantidad_pedimento - oldQuantity;
+                                        log.debug({title:'Cantidades: ', details:{oldQuantity: oldQuantity, cantidad_pedimento: cantidad_pedimento, diference: diferenceQuantity}});
+                                        if (diferenceQuantity == 0) {
+                                            contiene_pedimento = false;
+                                        }else if(diferenceQuantity > 0){
+                                            log.debug({title:'Incremento de pedimentos', details:'Se gastan más pedimentos'});
+                                            cantidad_pedimento = diferenceQuantity;
+                                        }else if(diferenceQuantity < 0){
+                                            log.debug({title:'Decremento de pedimentos', details:'Se regresan pedimentos'});
+                                            cantidad_pedimento = diferenceQuantity;
+                                        }
+                                    }
+
                                     if (recType == record.Type.INVENTORY_ADJUSTMENT) {
                                         var ubicacion_pedimento = record_obj.getSublistValue({
                                             sublistId: sublista,
                                             fieldId: 'location',
                                             line: i
                                         }) || 0;
+                                        log.debug({title:'Inventario con pedimento?', details:contiene_pedimento});
                                         if(contiene_pedimento) {
+                                            log.debug({title:'cantidad de pedimento', details:cantidad_pedimento});
                                             if (cantidad_pedimento < 0) {
                                                 objPedimento.pedimento = numero_p_linea;
                                                 objPedimento.cantidad = cantidad_pedimento;
@@ -403,7 +432,7 @@ define(['N/record', 'N/search'],
                                     var cantidad_master = parseFloat(array_busqueda_ped[i].custrecord_efx_ped_available) || 0;
                                     var precio_master = parseFloat(array_busqueda_ped[i].custrecord_efx_ped_price) || 0;
 
-                                    if (cantidad_master > 0 && item_master == arrayPedimento[x].item) {
+                                    if (cantidad_master > 0 && item_master == arrayPedimento[x].item && numero_pedimento == arrayPedimento[x].pedimento) {
                                         arrayPedimento[x].numeroPedimento = numero_pedimento;
                                         var obj_lineas = {
                                             item: '',
